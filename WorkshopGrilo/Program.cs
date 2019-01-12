@@ -36,7 +36,6 @@ namespace WorkshopGrilo
             }
             Console.ResetColor();
             Console.WriteLine(string.Empty);
-            Console.WriteLine(string.Empty);
             Console.WriteLine("Pressione qualquer tecla para sair...");
             Console.ReadKey();
         }
