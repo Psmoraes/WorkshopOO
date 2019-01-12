@@ -7,6 +7,7 @@ namespace WorkshopGrilo.Enums
     internal enum TipoConta
     {
         Corrente = 1,
-        Poupanca = 2
+        Poupanca = 2,
+        Investimento = 3
     }
 }
