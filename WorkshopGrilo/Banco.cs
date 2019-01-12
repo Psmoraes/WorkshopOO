@@ -13,8 +13,7 @@ namespace WorkshopGrilo
         public List<Conta> Contas { get; private set; }
         public Conta AbrirConta(Cliente cliente)
         {
-            if (cliente.MaiorDeIdade() == false)
-                throw new Exception("Apenas pessoas maiores de 18 podem abrir conta");
+            
             var numeroConta = Contas.Count - 1;
             var conta = new Conta(1,1,Enums.TipoConta.Corrente, this);
             Contas.Add(conta);

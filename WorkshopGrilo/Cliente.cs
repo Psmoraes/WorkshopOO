@@ -18,11 +18,6 @@ namespace WorkshopGrilo
             Endereco = endereco;
 
         }
-        public bool MaiorDeIdade()
-        {
-            var datamaiordeidade = DateTime.Now.AddYears(-18);
-            var maiordeidade = DataNascimento <= datamaiordeidade;
-            return maiordeidade;
-        }
+        
     }
 }
